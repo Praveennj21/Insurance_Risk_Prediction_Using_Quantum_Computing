@@ -1,0 +1,30 @@
+name,age,gender,bmi,cholesterol,blood_pressure,smoking_status,exercise_frequency,alcohol_consumption,pre_existing_conditions,marital_status,annual_income,residential_area,family_medical_history,healthcare_access,annual_claims,num_doctor_visits,num_specialist_visits,risk_level,insurance_amount
+KXFTE,98,M,36.0,169,142,Smoker,Never,Occasionally,Asthma,Widowed,120000,Urban,Cancer,Poor,3000,3,2,Medium,2800
+JIYCZ,76,F,17.9,289,171,Non-smoker,Occasionally,Frequently,Asthma,Married,20000,Rural,Heart Disease,Poor,3000,8,3,High,3150
+IVODX,54,F,32.6,169,141,Non-smoker,Regularly,Frequently,Hypertension,Divorced,20000,Suburban,,Excellent,8000,9,10,High,2800
+ZSYOO,76,F,19.5,103,169,Smoker,Regularly,Occasionally,,Divorced,60000,Rural,Cancer,Good,2000,1,7,Low,2550
+HIGKB,26,M,35.5,192,168,Non-smoker,Occasionally,Frequently,Diabetes,Married,90000,Urban,Hypertension,Average,4000,8,6,Medium,3100
+JPURR,81,M,20.8,283,171,Smoker,Occasionally,Occasionally,,Widowed,180000,Suburban,,Poor,6000,2,3,Medium,2800
+WOHFR,89,M,20.9,243,95,Non-smoker,Regularly,Occasionally,Cancer,Single,150000,Urban,Cancer,Poor,10000,2,1,Medium,2350
+SANJH,50,F,21.4,186,112,Non-smoker,Never,Frequently,Asthma,Married,190000,Rural,Hypertension,Good,3000,11,4,Medium,2250
+ADMCQ,52,M,21.6,268,156,Non-smoker,Never,Occasionally,Cancer,Married,120000,Suburban,Hypertension,Good,10000,7,6,Medium,3000
+RZTDB,18,M,27.3,267,116,Non-smoker,Never,Frequently,Diabetes,Married,180000,Urban,Hypertension,Good,4000,5,4,Medium,2400
+RKPNL,45,F,22.6,162,142,Non-smoker,Occasionally,Occasionally,Hypertension,Married,40000,Rural,Heart Disease,Average,4000,3,5,Low,2650
+OITXH,93,F,36.4,149,95,Non-smoker,Never,Never,Hypertension,Married,200000,Urban,Cancer,Average,10000,5,1,Medium,2200
+MEPLR,35,F,16.9,153,157,Non-smoker,Regularly,Frequently,Heart Disease,Single,120000,Urban,Hypertension,Good,0,11,2,Medium,1750
+LSUFS,23,F,30.0,287,117,Non-smoker,Never,Never,Heart Disease,Married,140000,Suburban,Cancer,Average,9000,8,1,Medium,2100
+JRFNT,57,F,33.9,108,162,Non-smoker,Regularly,Occasionally,Hypertension,Married,30000,Rural,Hypertension,Good,4000,11,6,High,2850
+PUFZN,49,F,15.5,256,170,Smoker,Regularly,Occasionally,,Divorced,90000,Rural,Diabetes,Poor,9000,8,3,Medium,2650
+QAJEV,88,M,28.7,173,153,Non-smoker,Occasionally,Occasionally,Diabetes,Widowed,200000,Suburban,Cancer,Average,9000,8,3,Medium,2800
+SCEYF,42,M,15.6,141,164,Smoker,Occasionally,Frequently,Hypertension,Single,90000,Suburban,Hypertension,Average,7000,6,5,Medium,3050
+ALHOQ,19,F,22.9,128,93,Non-smoker,Never,Frequently,Diabetes,Divorced,150000,Urban,Hypertension,Excellent,6000,5,10,Medium,1900
+JDCFJ,41,M,16.2,269,144,Non-smoker,Regularly,Never,Heart Disease,Divorced,90000,Rural,Heart Disease,Average,10000,9,8,High,2950
+SJWBA,96,M,35.3,234,131,Smoker,Never,Frequently,Asthma,Married,200000,Rural,Diabetes,Average,2000,1,10,Medium,2700
+GBMHJ,32,F,30.2,140,114,Non-smoker,Occasionally,Frequently,,Single,20000,Suburban,Hypertension,Excellent,8000,9,8,Medium,2550
+QUZVA,56,F,34.4,120,161,Smoker,Regularly,Frequently,Asthma,Single,100000,Urban,Heart Disease,Poor,8000,7,6,Medium,3250
+VPJQU,21,M,15.9,228,176,Smoker,Occasionally,Frequently,Hypertension,Married,110000,Rural,Hypertension,Good,3000,11,8,Medium,2700
+YXTIK,22,M,27.3,250,129,Smoker,Regularly,Frequently,,Single,160000,Suburban,,Good,5000,10,7,Medium,2650
+FYQHA,44,M,23.3,247,91,Smoker,Never,Frequently,Diabetes,Married,120000,Suburban,Heart Disease,Average,10000,7,6,Medium,2600
+CQYKN,64,M,39.1,204,96,Non-smoker,Regularly,Occasionally,Heart Disease,Widowed,30000,Suburban,Cancer,Average,5000,6,6,Low,2950
+MKNRS,24,F,29.5,115,145,Non-smoker,Never,Never,Diabetes,Single,190000,Suburban,,Excellent,6000,2,1,Medium,1850
+TDAYJ,67,M,30.2,292,106,Smoker,Never,Occasionally,Diabetes,Divorced,90000,Urban,Cancer,Good,2000,6,6,Medium,3400

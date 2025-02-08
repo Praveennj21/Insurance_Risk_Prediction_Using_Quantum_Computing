@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Data</title>
+</head>
+<body>
+    <h1>Enter Data for Prediction</h1>
+    <form action="/predict" method="POST">
+        <label for="age">Age:</label>
+        <input type="number" name="age" required><br>
+        
+        <label for="annual_income">Annual Income:</label>
+        <input type="number" step="0.01" name="annual_income" required><br>
+        
+        <label for="vehicle_age">Vehicle Age:</label>
+        <input type="number" name="vehicle_age" required><br>
+        
+        <label for="engine_size">Engine Size:</label>
+        <input type="number" step="0.01" name="engine_size" required><br>
+        
+        <label for="mileage_driven_annually">Mileage Driven Annually:</label>
+        <input type="number" step="0.01" name="mileage_driven_annually" required><br>
+        
+        <label for="accident_history">Accident History:</label>
+        <input type="number" name="accident_history" required><br>
+        
+        <label for="traffic_violations">Traffic Violations:</label>
+        <input type="number" name="traffic_violations" required><br>
+        
+        <label for="claims_history">Claims History:</label>
+        <input type="number" name="claims_history" required><br>
+        
+        <label for="license_duration">License Duration:</label>
+        <input type="number" name="license_duration" required><br>
+        
+        <label for="gender">Gender:</label>
+        <select name="gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+        
+        <label for="residential_location">Residential Location:</label>
+        <select name="residential_location" required>
+            <option value="Urban">Urban</option>
+            <option value="Rural">Rural</option>
+        </select><br>
+        
+        <label for="vehicle_make">Vehicle Make:</label>
+        <input type="text" name="vehicle_make" required><br>
+        
+        <input type="submit" value="Predict Risk Level">
+    </form>
+</body>
+</html>

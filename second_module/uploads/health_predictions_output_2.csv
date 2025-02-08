@@ -1,0 +1,301 @@
+name,age,gender,bmi,cholesterol,blood_pressure,smoking_status,exercise_frequency,alcohol_consumption,pre_existing_conditions,marital_status,annual_income,residential_area,family_medical_history,healthcare_access,annual_claims,num_doctor_visits,num_specialist_visits,risk_level,insurance_amount
+RCURK,29,M,24.6,143,103,Non-smoker,Regularly,Never,,Married,76860,Urban,,Excellent,912,1,0,Low,800
+AWXRT,26,F,22.1,176,118,Non-smoker,Regularly,Never,,Single,26895,Rural,,Excellent,1441,1,1,Low,800
+SANHA,37,M,19.9,106,113,Non-smoker,Regularly,Never,,Married,79618,Rural,,Excellent,960,2,0,Low,800
+MBTUN,36,F,20.8,184,91,Non-smoker,Regularly,Never,,Married,60170,Rural,,Excellent,1208,1,0,Low,800
+XLRZV,20,M,19.4,172,90,Non-smoker,Regularly,Never,,Married,59973,Rural,,Excellent,108,1,1,Low,800
+DQVNT,25,M,16.9,192,115,Non-smoker,Regularly,Never,,Married,48440,Urban,,Excellent,1132,0,0,Low,800
+HGLJA,20,F,22.5,148,94,Non-smoker,Regularly,Never,,Married,37815,Urban,,Excellent,223,2,0,Low,800
+PUCNG,31,F,19.7,190,93,Non-smoker,Regularly,Never,,Single,77246,Rural,,Excellent,2,2,0,Low,800
+BQHJR,26,F,19.7,111,115,Non-smoker,Regularly,Never,,Married,72440,Urban,,Excellent,811,0,0,Low,800
+RQWYF,22,F,21.7,122,111,Non-smoker,Regularly,Never,,Single,50654,Urban,,Excellent,410,0,1,Low,800
+LLVQB,21,M,21.4,153,103,Non-smoker,Regularly,Never,,Married,57562,Rural,,Excellent,247,1,0,Low,800
+FLCFL,39,F,22.7,130,115,Non-smoker,Regularly,Never,,Single,66301,Urban,,Excellent,1697,1,0,Low,800
+BANYU,27,F,20.5,125,94,Non-smoker,Regularly,Never,,Single,30448,Urban,,Excellent,1282,2,1,Low,800
+YDBJH,22,F,22.0,117,100,Non-smoker,Regularly,Never,,Single,78551,Urban,,Excellent,886,1,0,Low,800
+AJPGI,29,F,21.9,100,95,Non-smoker,Regularly,Never,,Married,34592,Urban,,Excellent,206,1,1,Low,800
+JWRKJ,39,M,15.4,101,118,Non-smoker,Regularly,Never,,Married,25843,Urban,,Excellent,1853,1,0,Low,800
+DOUNX,25,F,24.7,188,109,Non-smoker,Regularly,Never,,Single,72341,Urban,,Excellent,1891,2,1,Low,800
+EGEKV,26,F,21.2,157,115,Non-smoker,Regularly,Never,,Married,21660,Urban,,Excellent,1546,1,1,Low,800
+PZLUF,33,F,15.2,159,116,Non-smoker,Regularly,Never,,Single,34907,Urban,,Excellent,441,1,0,Low,800
+COLIP,23,M,20.8,100,111,Non-smoker,Regularly,Never,,Single,68636,Urban,,Excellent,1351,0,1,Low,800
+MMDNJ,21,F,20.9,112,93,Non-smoker,Regularly,Never,,Single,20588,Urban,,Excellent,938,2,1,Low,800
+IBMWF,25,F,23.2,101,108,Non-smoker,Regularly,Never,,Married,20114,Urban,,Excellent,663,0,0,Low,800
+WNHMB,39,F,21.9,143,90,Non-smoker,Regularly,Never,,Single,56276,Urban,,Excellent,1535,0,0,Low,800
+FTLAU,24,F,20.2,134,103,Non-smoker,Regularly,Never,,Married,52399,Urban,,Excellent,476,1,1,Low,800
+WSLCK,22,F,17.5,183,119,Non-smoker,Regularly,Never,,Single,79551,Urban,,Excellent,1967,0,1,Low,800
+BHSNX,26,F,17.5,131,119,Non-smoker,Regularly,Never,,Married,43433,Urban,,Excellent,148,2,1,Low,800
+EHSNF,32,F,16.2,177,114,Non-smoker,Regularly,Never,,Single,75676,Rural,,Excellent,1051,1,0,Low,800
+OUBIM,31,M,21.1,158,116,Non-smoker,Regularly,Never,,Single,29706,Urban,,Excellent,584,1,1,Low,800
+SODPD,22,F,18.3,173,90,Non-smoker,Regularly,Never,,Single,25998,Urban,,Excellent,397,1,1,Low,800
+PZIUT,22,F,17.1,189,97,Non-smoker,Regularly,Never,,Married,37065,Rural,,Excellent,1470,0,0,Low,800
+KPIWZ,20,F,21.6,174,117,Non-smoker,Regularly,Never,,Single,78189,Rural,,Excellent,490,0,0,Low,800
+JJBMJ,22,F,15.1,184,104,Non-smoker,Regularly,Never,,Married,27606,Rural,,Excellent,270,1,0,Low,800
+ANIZJ,39,F,20.3,124,111,Non-smoker,Regularly,Never,,Married,28249,Rural,,Excellent,1574,2,0,Low,800
+WJDUQ,33,F,15.9,192,94,Non-smoker,Regularly,Never,,Married,25031,Urban,,Excellent,250,0,1,Low,800
+VOMBU,19,M,19.6,198,91,Non-smoker,Regularly,Never,,Single,23492,Urban,,Excellent,290,0,0,Low,800
+NADTS,22,F,20.3,182,109,Non-smoker,Regularly,Never,,Single,47009,Rural,,Excellent,770,0,0,Low,800
+BCJJV,20,F,17.5,170,118,Non-smoker,Regularly,Never,,Married,59847,Urban,,Excellent,909,0,1,Low,800
+CVGYH,28,F,17.7,160,103,Non-smoker,Regularly,Never,,Married,31752,Urban,,Excellent,393,2,0,Low,800
+KLZLW,22,M,22.4,131,90,Non-smoker,Regularly,Never,,Married,70058,Rural,,Excellent,1644,2,0,Low,800
+GNMRY,34,M,21.9,183,113,Non-smoker,Regularly,Never,,Married,54778,Urban,,Excellent,242,1,0,Low,800
+ZXUVY,18,F,22.6,151,111,Non-smoker,Regularly,Never,,Single,26068,Rural,,Excellent,301,2,1,Low,800
+FWZGI,27,F,20.6,184,117,Non-smoker,Regularly,Never,,Single,53811,Rural,,Excellent,1225,2,1,Low,800
+IGVUE,20,F,16.8,151,116,Non-smoker,Regularly,Never,,Married,71289,Urban,,Excellent,1099,0,1,Low,800
+PMBTN,34,F,16.8,193,93,Non-smoker,Regularly,Never,,Married,59018,Rural,,Excellent,1687,0,0,Low,800
+FOBHI,25,F,17.6,178,99,Non-smoker,Regularly,Never,,Married,72728,Rural,,Excellent,1913,1,0,Low,800
+QINQW,23,F,17.9,151,107,Non-smoker,Regularly,Never,,Single,28037,Urban,,Excellent,1159,1,0,Low,800
+FXXNG,27,M,21.7,184,115,Non-smoker,Regularly,Never,,Single,43052,Urban,,Excellent,650,2,0,Low,800
+PCKHP,25,M,17.4,164,107,Non-smoker,Regularly,Never,,Single,41053,Urban,,Excellent,623,2,0,Low,800
+RCKVU,24,M,24.5,114,90,Non-smoker,Regularly,Never,,Married,46641,Urban,,Excellent,1186,0,1,Low,800
+IRSSP,27,M,23.5,187,93,Non-smoker,Regularly,Never,,Married,23369,Rural,,Excellent,1474,1,0,Low,800
+IRHRC,36,M,19.6,196,103,Non-smoker,Regularly,Never,,Single,66653,Rural,,Excellent,706,1,0,Low,800
+ZQKNV,18,F,20.2,127,117,Non-smoker,Regularly,Never,,Single,50965,Urban,,Excellent,718,1,0,Low,800
+JFNUS,24,M,17.9,172,101,Non-smoker,Regularly,Never,,Married,56387,Urban,,Excellent,1258,1,0,Low,800
+WHHSF,33,F,22.6,135,117,Non-smoker,Regularly,Never,,Married,53808,Rural,,Excellent,1812,2,1,Low,800
+CXSAQ,27,F,18.9,149,116,Non-smoker,Regularly,Never,,Single,37318,Rural,,Excellent,753,2,0,Low,800
+EUFZM,18,M,20.0,116,91,Non-smoker,Regularly,Never,,Single,25246,Urban,,Excellent,774,0,0,Low,800
+UPSTF,38,F,15.7,117,93,Non-smoker,Regularly,Never,,Single,52683,Rural,,Excellent,904,1,0,Low,800
+HPBAP,20,F,24.4,123,90,Non-smoker,Regularly,Never,,Married,40892,Rural,,Excellent,560,0,1,Low,800
+TJHKD,30,M,21.2,105,99,Non-smoker,Regularly,Never,,Married,54595,Urban,,Excellent,287,1,0,Low,800
+VEXZK,21,M,21.8,144,107,Non-smoker,Regularly,Never,,Married,63931,Rural,,Excellent,950,2,1,Low,800
+KRQAG,30,F,16.8,136,116,Non-smoker,Regularly,Never,,Single,71598,Urban,,Excellent,1960,2,0,Low,800
+EJXRT,21,M,17.5,132,117,Non-smoker,Regularly,Never,,Single,39141,Urban,,Excellent,1281,1,1,Low,800
+GELMX,20,M,24.6,122,91,Non-smoker,Regularly,Never,,Single,23922,Urban,,Excellent,252,2,0,Low,800
+GXMKI,21,F,17.2,122,117,Non-smoker,Regularly,Never,,Married,54838,Urban,,Excellent,702,1,1,Low,800
+BIDMP,21,F,20.3,180,108,Non-smoker,Regularly,Never,,Single,66495,Urban,,Excellent,1565,1,1,Low,800
+PJHUY,36,F,22.2,154,106,Non-smoker,Regularly,Never,,Married,37157,Rural,,Excellent,1641,1,0,Low,800
+FWLPL,38,M,23.0,162,91,Non-smoker,Regularly,Never,,Single,62291,Urban,,Excellent,698,2,0,Low,800
+RVTQL,19,M,15.2,198,115,Non-smoker,Regularly,Never,,Single,49551,Rural,,Excellent,933,1,0,Low,800
+DRCIC,36,F,17.2,112,105,Non-smoker,Regularly,Never,,Married,70962,Urban,,Excellent,1524,1,1,Low,800
+XUFAJ,24,M,16.4,148,97,Non-smoker,Regularly,Never,,Married,75684,Urban,,Excellent,1335,2,1,Low,800
+OBJDI,23,M,17.3,125,118,Non-smoker,Regularly,Never,,Single,22509,Rural,,Excellent,1410,0,0,Low,800
+HWQPZ,37,F,21.3,124,112,Non-smoker,Regularly,Never,,Single,32967,Urban,,Excellent,1302,1,1,Low,800
+VIQVI,24,F,22.6,154,99,Non-smoker,Regularly,Never,,Married,38236,Rural,,Excellent,1810,1,0,Low,800
+ZMLYB,36,F,15.5,173,113,Non-smoker,Regularly,Never,,Married,23039,Rural,,Excellent,160,1,1,Low,800
+VJOJG,20,M,15.3,189,109,Non-smoker,Regularly,Never,,Single,68626,Rural,,Excellent,1461,1,0,Low,800
+CVMFT,22,F,22.3,100,107,Non-smoker,Regularly,Never,,Single,22936,Rural,,Excellent,1766,2,1,Low,800
+BEEKX,35,F,20.8,155,96,Non-smoker,Regularly,Never,,Married,31043,Urban,,Excellent,700,1,1,Low,800
+HLEAA,35,F,20.9,189,114,Non-smoker,Regularly,Never,,Married,69159,Urban,,Excellent,613,0,0,Low,800
+DMVXZ,23,F,15.1,158,106,Non-smoker,Regularly,Never,,Single,50431,Urban,,Excellent,1336,0,0,Low,800
+DKKEY,26,M,20.4,124,92,Non-smoker,Regularly,Never,,Single,37145,Urban,,Excellent,881,1,1,Low,800
+YXXMK,21,M,23.9,138,95,Non-smoker,Regularly,Never,,Single,21298,Urban,,Excellent,912,0,0,Low,800
+LDWLM,25,F,17.2,100,111,Non-smoker,Regularly,Never,,Single,42524,Urban,,Excellent,560,2,1,Low,800
+VAPIQ,21,M,18.1,128,116,Non-smoker,Regularly,Never,,Married,36881,Urban,,Excellent,712,2,1,Low,800
+DILKS,34,M,23.7,120,107,Non-smoker,Regularly,Never,,Married,26449,Urban,,Excellent,375,1,1,Low,800
+PIKLD,22,F,20.8,110,91,Non-smoker,Regularly,Never,,Married,38832,Rural,,Excellent,263,0,0,Low,800
+TAGBL,19,M,20.9,155,111,Non-smoker,Regularly,Never,,Married,74825,Rural,,Excellent,1160,1,0,Low,800
+JIIEF,36,M,22.6,123,104,Non-smoker,Regularly,Never,,Single,38486,Rural,,Excellent,838,1,0,Low,800
+EDKFF,23,F,22.2,155,118,Non-smoker,Regularly,Never,,Married,22094,Rural,,Excellent,1669,2,1,Low,800
+WZIRT,18,F,17.7,181,95,Non-smoker,Regularly,Never,,Single,69817,Urban,,Excellent,555,2,0,Low,800
+UCCTD,23,M,22.0,140,90,Non-smoker,Regularly,Never,,Married,42139,Rural,,Excellent,158,1,0,Low,800
+CADEY,19,F,18.2,106,112,Non-smoker,Regularly,Never,,Single,40972,Rural,,Excellent,203,1,1,Low,800
+TKMJN,31,M,15.7,101,106,Non-smoker,Regularly,Never,,Single,24170,Rural,,Excellent,337,1,1,Low,800
+BJTXR,29,F,16.0,104,102,Non-smoker,Regularly,Never,,Single,51298,Urban,,Excellent,1636,0,1,Low,800
+EYCYE,32,F,24.7,147,99,Non-smoker,Regularly,Never,,Single,43081,Rural,,Excellent,1534,2,1,Low,800
+VDZPD,31,F,24.7,179,98,Non-smoker,Regularly,Never,,Single,44592,Urban,,Excellent,822,0,1,Low,800
+XGLPB,32,F,18.3,133,114,Non-smoker,Regularly,Never,,Married,56443,Urban,,Excellent,685,0,1,Low,800
+UOREO,38,F,16.0,117,99,Non-smoker,Regularly,Never,,Single,21561,Rural,,Excellent,1787,2,0,Low,800
+QUAWJ,18,M,23.7,129,115,Non-smoker,Regularly,Never,,Single,61489,Urban,,Excellent,654,0,1,Low,800
+IQBTA,37,M,23.8,133,94,Non-smoker,Regularly,Never,,Married,40834,Rural,,Excellent,1202,1,1,Low,800
+CGGWU,38,F,18.3,121,100,Non-smoker,Regularly,Never,,Married,60453,Rural,,Excellent,1754,1,0,Low,800
+LKEWN,40,M,26.6,234,132,Smoker,Occasionally,Occasionally,,Married,55360,Suburban,Hypertension,Good,4279,3,2,Medium,800
+FXDWE,44,F,26.1,200,138,Smoker,Occasionally,Occasionally,,Married,38252,Suburban,Hypertension,Good,2359,5,1,Medium,800
+MXSIF,44,M,29.5,202,121,Non-smoker,Occasionally,Occasionally,,Married,80959,Suburban,Hypertension,Good,3798,5,3,Medium,800
+LJIBI,47,F,26.9,227,128,Non-smoker,Occasionally,Occasionally,,Divorced,70337,Urban,Hypertension,Good,2334,3,1,Medium,800
+QHIPY,47,M,28.4,224,124,Non-smoker,Occasionally,Occasionally,,Divorced,37450,Urban,Hypertension,Good,3575,5,3,Medium,800
+JBGXR,42,F,28.5,203,120,Non-smoker,Occasionally,Occasionally,,Divorced,41527,Urban,Hypertension,Good,3089,3,2,Medium,800
+SCVUK,51,M,26.4,208,124,Smoker,Occasionally,Occasionally,,Divorced,38885,Urban,Hypertension,Good,3674,5,1,Medium,800
+KSBWX,50,F,27.9,216,139,Smoker,Occasionally,Occasionally,,Divorced,33202,Urban,Hypertension,Good,4364,4,2,Medium,800
+XGLTZ,56,M,28.6,222,129,Non-smoker,Occasionally,Occasionally,,Married,67068,Suburban,Hypertension,Good,4884,3,1,Medium,800
+DXGUX,55,M,26.8,208,131,Smoker,Occasionally,Occasionally,,Married,52787,Urban,Hypertension,Good,3483,5,2,Medium,800
+GLONY,48,M,28.7,210,121,Smoker,Occasionally,Occasionally,,Married,69923,Suburban,Hypertension,Good,4890,3,1,Medium,800
+BFKFC,42,M,26.8,235,120,Non-smoker,Occasionally,Occasionally,,Divorced,64218,Suburban,Hypertension,Good,2595,5,3,Medium,800
+WSZVQ,59,M,29.8,220,130,Smoker,Occasionally,Occasionally,,Married,46237,Urban,Hypertension,Good,2436,3,1,Medium,800
+HBVHX,59,M,25.4,221,132,Smoker,Occasionally,Occasionally,,Married,34530,Urban,Hypertension,Good,4712,3,2,Medium,800
+GHTZL,50,M,28.0,235,135,Smoker,Occasionally,Occasionally,,Married,58924,Urban,Hypertension,Good,4153,3,1,Medium,800
+OQEPI,52,F,25.9,223,133,Smoker,Occasionally,Occasionally,,Divorced,72518,Suburban,Hypertension,Good,4124,5,1,Medium,800
+NZHJF,58,F,26.9,238,126,Smoker,Occasionally,Occasionally,,Divorced,65230,Suburban,Hypertension,Good,4833,3,3,Medium,800
+VQZRT,41,M,29.3,207,127,Smoker,Occasionally,Occasionally,,Divorced,74950,Suburban,Hypertension,Good,2556,5,1,Medium,800
+WCXPD,60,F,25.2,238,132,Smoker,Occasionally,Occasionally,,Married,47293,Urban,Hypertension,Good,3462,5,3,Medium,800
+YXAXT,50,M,25.6,200,125,Non-smoker,Occasionally,Occasionally,,Married,76279,Urban,Hypertension,Good,2829,3,2,Medium,800
+YYHVI,43,M,27.4,223,129,Smoker,Occasionally,Occasionally,,Divorced,83972,Suburban,Hypertension,Good,3555,5,1,Medium,800
+CSEIK,52,F,28.1,222,138,Smoker,Occasionally,Occasionally,,Divorced,50888,Urban,Hypertension,Good,3632,3,1,Medium,800
+BVYOD,45,F,25.6,237,129,Smoker,Occasionally,Occasionally,,Married,56808,Suburban,Hypertension,Good,2047,4,1,Medium,800
+PBNSA,51,F,25.0,232,122,Non-smoker,Occasionally,Occasionally,,Married,62832,Suburban,Hypertension,Good,4713,4,1,Medium,800
+BIHES,51,F,25.5,211,139,Smoker,Occasionally,Occasionally,,Married,45768,Suburban,Hypertension,Good,3630,4,2,Medium,800
+GQJBG,46,F,28.2,207,138,Smoker,Occasionally,Occasionally,,Married,44346,Suburban,Hypertension,Good,4648,4,3,Medium,800
+HLYBX,59,F,25.0,236,124,Non-smoker,Occasionally,Occasionally,,Married,59373,Suburban,Hypertension,Good,2833,5,3,Medium,800
+VHOPJ,58,M,29.8,212,138,Smoker,Occasionally,Occasionally,,Married,85871,Urban,Hypertension,Good,2398,3,1,Medium,800
+QCJUT,53,M,29.6,219,132,Smoker,Occasionally,Occasionally,,Married,30741,Suburban,Hypertension,Good,4143,5,2,Medium,800
+QUXEU,50,M,29.1,222,138,Non-smoker,Occasionally,Occasionally,,Divorced,38584,Suburban,Hypertension,Good,4713,5,1,Medium,800
+FRIJI,45,F,26.9,222,135,Smoker,Occasionally,Occasionally,,Divorced,54277,Urban,Hypertension,Good,3178,3,3,Medium,800
+GZGEP,58,F,26.5,211,123,Non-smoker,Occasionally,Occasionally,,Divorced,51400,Urban,Hypertension,Good,4906,5,3,Medium,800
+LAFBV,40,F,27.1,207,139,Smoker,Occasionally,Occasionally,,Married,53524,Urban,Hypertension,Good,3535,4,2,Medium,800
+KYJYP,54,M,29.6,234,137,Non-smoker,Occasionally,Occasionally,,Married,37352,Suburban,Hypertension,Good,3841,3,3,Medium,800
+OGIJR,52,F,29.0,224,129,Smoker,Occasionally,Occasionally,,Married,82918,Suburban,Hypertension,Good,2481,5,1,Medium,800
+THUFS,60,F,25.7,222,138,Smoker,Occasionally,Occasionally,,Divorced,50585,Urban,Hypertension,Good,3372,3,2,Medium,800
+CGODN,56,M,28.1,223,134,Non-smoker,Occasionally,Occasionally,,Divorced,86557,Suburban,Hypertension,Good,2072,5,1,Medium,800
+QWFNE,52,M,27.5,207,133,Non-smoker,Occasionally,Occasionally,,Divorced,50456,Suburban,Hypertension,Good,4720,4,1,Medium,800
+KLDQW,54,M,28.7,238,131,Smoker,Occasionally,Occasionally,,Married,76811,Suburban,Hypertension,Good,4392,5,2,Medium,800
+BPFJG,45,F,28.3,234,133,Smoker,Occasionally,Occasionally,,Divorced,75869,Suburban,Hypertension,Good,2167,5,2,Medium,800
+RZFKK,43,M,29.4,202,130,Non-smoker,Occasionally,Occasionally,,Married,70278,Urban,Hypertension,Good,2046,5,1,Medium,800
+IRQLU,45,F,29.9,221,125,Non-smoker,Occasionally,Occasionally,,Married,65310,Suburban,Hypertension,Good,4191,4,2,Medium,800
+LCKPX,49,M,26.6,231,133,Non-smoker,Occasionally,Occasionally,,Married,51675,Urban,Hypertension,Good,3232,4,1,Medium,800
+NROXQ,54,M,25.1,218,131,Smoker,Occasionally,Occasionally,,Married,72344,Suburban,Hypertension,Good,2096,4,3,Medium,800
+DUEQL,47,M,28.3,212,128,Non-smoker,Occasionally,Occasionally,,Married,58350,Urban,Hypertension,Good,4218,4,3,Medium,800
+TKUYJ,57,M,25.0,213,134,Non-smoker,Occasionally,Occasionally,,Married,76238,Suburban,Hypertension,Good,4342,5,1,Medium,800
+BOMJZ,49,F,26.9,216,125,Non-smoker,Occasionally,Occasionally,,Divorced,81192,Suburban,Hypertension,Good,3309,3,2,Medium,800
+GSUFU,56,M,25.1,222,135,Non-smoker,Occasionally,Occasionally,,Married,76419,Urban,Hypertension,Good,2629,4,1,Medium,800
+MHZKW,46,F,26.1,235,130,Non-smoker,Occasionally,Occasionally,,Married,66010,Urban,Hypertension,Good,3413,5,3,Medium,800
+PTPHK,41,M,26.4,232,124,Smoker,Occasionally,Occasionally,,Married,72703,Urban,Hypertension,Good,4220,5,3,Medium,800
+QCFVO,41,M,25.5,227,130,Non-smoker,Occasionally,Occasionally,,Divorced,70500,Suburban,Hypertension,Good,3466,4,1,Medium,800
+SATFM,53,F,29.3,239,134,Smoker,Occasionally,Occasionally,,Married,69987,Suburban,Hypertension,Good,2396,3,2,Medium,800
+LERTZ,60,M,27.3,226,120,Non-smoker,Occasionally,Occasionally,,Married,79002,Urban,Hypertension,Good,4694,5,2,Medium,800
+ZUZXA,50,M,25.4,234,135,Smoker,Occasionally,Occasionally,,Married,46003,Suburban,Hypertension,Good,2744,4,3,Medium,800
+ERMKH,40,M,25.0,224,120,Smoker,Occasionally,Occasionally,,Divorced,60862,Urban,Hypertension,Good,3181,3,2,Medium,800
+HFNTC,57,F,28.6,203,130,Smoker,Occasionally,Occasionally,,Married,89139,Suburban,Hypertension,Good,4618,4,3,Medium,800
+CNZMZ,52,F,25.9,213,120,Smoker,Occasionally,Occasionally,,Divorced,48311,Suburban,Hypertension,Good,3737,3,3,Medium,800
+LBGLP,41,F,25.5,216,132,Smoker,Occasionally,Occasionally,,Married,51888,Suburban,Hypertension,Good,2449,5,1,Medium,800
+NAWCT,56,F,27.2,226,133,Smoker,Occasionally,Occasionally,,Married,69563,Suburban,Hypertension,Good,2726,3,1,Medium,800
+OMITY,49,F,27.9,204,138,Non-smoker,Occasionally,Occasionally,,Divorced,60703,Urban,Hypertension,Good,3826,3,3,Medium,800
+KNALU,60,F,25.6,216,127,Smoker,Occasionally,Occasionally,,Married,60863,Suburban,Hypertension,Good,2850,5,1,Medium,800
+ZVDMA,56,F,27.2,230,125,Smoker,Occasionally,Occasionally,,Married,81377,Urban,Hypertension,Good,3148,4,3,Medium,800
+QVTSH,49,M,29.5,232,129,Smoker,Occasionally,Occasionally,,Divorced,47507,Urban,Hypertension,Good,4815,3,2,Medium,800
+XDWIS,54,F,29.5,217,136,Non-smoker,Occasionally,Occasionally,,Divorced,38129,Urban,Hypertension,Good,2834,5,1,Medium,800
+NGPWD,48,F,28.3,219,130,Non-smoker,Occasionally,Occasionally,,Married,87948,Urban,Hypertension,Good,2392,4,3,Medium,800
+VSPIQ,51,F,26.6,216,139,Smoker,Occasionally,Occasionally,,Divorced,70625,Suburban,Hypertension,Good,4157,5,2,Medium,800
+RZTFY,59,M,27.3,219,137,Smoker,Occasionally,Occasionally,,Married,68474,Suburban,Hypertension,Good,2353,4,3,Medium,800
+JBLAO,56,M,26.0,203,133,Non-smoker,Occasionally,Occasionally,,Married,33602,Suburban,Hypertension,Good,4066,4,1,Medium,800
+UNCYW,42,F,28.4,228,124,Non-smoker,Occasionally,Occasionally,,Married,50881,Suburban,Hypertension,Good,4313,3,2,Medium,800
+BHNWP,41,F,26.1,200,121,Smoker,Occasionally,Occasionally,,Married,61186,Suburban,Hypertension,Good,2942,4,3,Medium,800
+DMDZN,44,M,26.2,219,130,Non-smoker,Occasionally,Occasionally,,Married,84086,Suburban,Hypertension,Good,2015,4,1,Medium,800
+QRHME,58,M,27.4,203,123,Non-smoker,Occasionally,Occasionally,,Married,78688,Urban,Hypertension,Good,2910,5,3,Medium,800
+ASWOK,55,F,25.8,201,123,Smoker,Occasionally,Occasionally,,Married,44116,Suburban,Hypertension,Good,3894,5,3,Medium,800
+FSJSR,58,F,29.1,230,129,Smoker,Occasionally,Occasionally,,Married,58016,Urban,Hypertension,Good,3507,3,3,Medium,800
+UAIMM,42,F,25.1,231,133,Smoker,Occasionally,Occasionally,,Married,65389,Urban,Hypertension,Good,2596,5,3,Medium,800
+VCYHT,50,M,25.8,205,134,Smoker,Occasionally,Occasionally,,Married,62441,Suburban,Hypertension,Good,2161,5,3,Medium,800
+CANBE,50,F,26.9,224,136,Smoker,Occasionally,Occasionally,,Married,85029,Urban,Hypertension,Good,4103,4,1,Medium,800
+GKMKT,58,F,27.7,222,130,Smoker,Occasionally,Occasionally,,Married,64327,Urban,Hypertension,Good,3463,5,3,Medium,800
+FPIWL,51,F,29.7,228,136,Non-smoker,Occasionally,Occasionally,,Divorced,36386,Suburban,Hypertension,Good,3864,3,1,Medium,800
+REALU,48,M,28.2,235,138,Smoker,Occasionally,Occasionally,,Married,80502,Suburban,Hypertension,Good,4416,5,1,Medium,800
+PDOEG,54,M,26.9,200,126,Non-smoker,Occasionally,Occasionally,,Divorced,54736,Urban,Hypertension,Good,2498,3,3,Medium,800
+REXQA,57,M,27.9,230,129,Smoker,Occasionally,Occasionally,,Married,67983,Suburban,Hypertension,Good,4668,3,3,Medium,800
+OFTKX,52,F,29.1,216,132,Non-smoker,Occasionally,Occasionally,,Married,52244,Suburban,Hypertension,Good,3760,3,2,Medium,800
+FIGAK,56,M,27.9,229,135,Smoker,Occasionally,Occasionally,,Married,56982,Urban,Hypertension,Good,2571,3,1,Medium,800
+GKJJJ,42,M,29.7,201,131,Smoker,Occasionally,Occasionally,,Divorced,70093,Urban,Hypertension,Good,4276,3,2,Medium,800
+MSEZU,43,M,26.9,233,121,Non-smoker,Occasionally,Occasionally,,Married,78842,Suburban,Hypertension,Good,2643,3,1,Medium,800
+ZCQKS,47,M,27.5,221,130,Non-smoker,Occasionally,Occasionally,,Married,80062,Urban,Hypertension,Good,2699,5,3,Medium,800
+KPRWE,46,F,29.4,206,129,Non-smoker,Occasionally,Occasionally,,Married,88064,Urban,Hypertension,Good,4442,4,3,Medium,800
+CHRHH,59,M,25.6,234,122,Smoker,Occasionally,Occasionally,,Divorced,50298,Suburban,Hypertension,Good,3464,3,3,Medium,800
+STQZR,56,F,29.2,209,132,Non-smoker,Occasionally,Occasionally,,Married,55227,Suburban,Hypertension,Good,2916,4,2,Medium,800
+ZAWEU,40,F,27.3,236,126,Non-smoker,Occasionally,Occasionally,,Married,49433,Urban,Hypertension,Good,2872,4,2,Medium,800
+ITHAL,54,M,27.0,217,136,Smoker,Occasionally,Occasionally,,Married,68969,Urban,Hypertension,Good,2992,4,2,Medium,800
+VNQQB,46,M,28.0,233,128,Non-smoker,Occasionally,Occasionally,,Divorced,51512,Suburban,Hypertension,Good,3515,5,1,Medium,800
+RNTYB,42,M,27.4,238,127,Smoker,Occasionally,Occasionally,,Married,58816,Urban,Hypertension,Good,2992,3,3,Medium,800
+BOUVJ,47,M,29.6,228,137,Non-smoker,Occasionally,Occasionally,,Divorced,76411,Urban,Hypertension,Good,3391,4,1,Medium,800
+GSCAQ,40,F,26.2,219,135,Non-smoker,Occasionally,Occasionally,,Married,70662,Urban,Hypertension,Good,2340,4,3,Medium,800
+YVQCD,56,M,28.9,203,136,Non-smoker,Occasionally,Occasionally,,Married,55747,Urban,Hypertension,Good,2639,4,1,Medium,800
+RYQCN,45,M,28.7,213,137,Non-smoker,Occasionally,Occasionally,,Married,85246,Suburban,Hypertension,Good,4470,3,2,Medium,800
+YQALU,49,F,29.1,226,128,Smoker,Occasionally,Occasionally,,Divorced,42492,Suburban,Hypertension,Good,4984,5,2,Medium,800
+DLACQ,54,M,28.3,224,136,Non-smoker,Occasionally,Occasionally,,Divorced,37864,Urban,Hypertension,Good,2502,5,2,Medium,800
+ETAGQ,61,F,37.6,251,150,Smoker,Never,Frequently,Heart Disease,Widowed,39063,Rural,Cancer,Average,7519,8,3,High,1700
+YUTVF,71,M,35.7,243,143,Smoker,Never,Frequently,Diabetes,Widowed,27817,Rural,Cancer,Average,9177,7,5,High,1700
+UIONH,66,M,30.4,251,170,Smoker,Never,Frequently,Diabetes,Widowed,40397,Rural,Cancer,Average,8283,11,4,High,1700
+ZOBHD,83,M,38.7,293,154,Smoker,Never,Frequently,Heart Disease,Widowed,34733,Rural,Cancer,Average,5309,6,6,High,1700
+DMDJL,73,M,31.3,243,177,Smoker,Never,Frequently,Diabetes,Widowed,41407,Rural,Cancer,Average,5760,10,3,High,1700
+EEEAC,65,M,39.5,243,157,Smoker,Never,Frequently,Diabetes,Widowed,22504,Rural,Cancer,Average,7099,6,4,High,1700
+TZLMB,62,F,32.4,247,180,Smoker,Never,Frequently,Diabetes,Widowed,54291,Rural,Cancer,Average,8660,7,4,High,1700
+DDZWE,80,F,37.7,268,178,Smoker,Never,Frequently,Heart Disease,Widowed,37985,Rural,Cancer,Average,5629,8,6,High,1700
+HLFCU,63,M,34.8,272,175,Smoker,Never,Frequently,Diabetes,Widowed,41973,Rural,Cancer,Average,9573,8,6,High,1700
+HBWGX,76,M,39.1,278,163,Smoker,Never,Frequently,Diabetes,Widowed,34826,Rural,Cancer,Average,5571,10,3,High,1700
+FFFXR,87,M,33.1,241,146,Smoker,Never,Frequently,Heart Disease,Widowed,18533,Rural,Cancer,Average,8482,6,4,High,1700
+NEFUT,80,M,31.0,287,179,Smoker,Never,Frequently,Heart Disease,Widowed,55087,Rural,Cancer,Average,9103,8,3,High,1700
+YRBAL,87,F,36.4,251,149,Smoker,Never,Frequently,Heart Disease,Widowed,26325,Rural,Cancer,Average,8533,8,3,High,1700
+SVCFU,75,F,35.8,240,161,Smoker,Never,Frequently,Heart Disease,Widowed,32791,Rural,Cancer,Average,7250,10,6,High,1700
+XCHCP,71,F,38.1,258,152,Smoker,Never,Frequently,Diabetes,Widowed,28449,Rural,Cancer,Average,6449,11,3,High,1700
+SMYRK,88,M,34.8,259,171,Smoker,Never,Frequently,Heart Disease,Widowed,16484,Rural,Cancer,Average,5495,8,6,High,1700
+CCGTE,71,F,32.6,244,175,Smoker,Never,Frequently,Diabetes,Widowed,32764,Rural,Cancer,Average,5988,8,6,High,1700
+DUDMI,82,M,34.7,286,162,Smoker,Never,Frequently,Diabetes,Widowed,34584,Rural,Cancer,Average,8705,6,3,High,1700
+PSUNW,62,M,37.7,271,159,Smoker,Never,Frequently,Heart Disease,Widowed,57963,Rural,Cancer,Average,8369,6,6,High,1700
+PYGXE,65,F,39.2,243,172,Smoker,Never,Frequently,Diabetes,Widowed,37381,Rural,Cancer,Average,9097,9,6,High,1700
+CGIEZ,63,F,34.5,285,163,Smoker,Never,Frequently,Heart Disease,Widowed,15833,Rural,Cancer,Average,6618,8,6,High,1700
+WRXUQ,81,F,30.5,277,152,Smoker,Never,Frequently,Heart Disease,Widowed,35297,Rural,Cancer,Average,6662,11,4,High,1700
+QAIXB,87,M,37.0,259,172,Smoker,Never,Frequently,Heart Disease,Widowed,17010,Rural,Cancer,Average,8382,10,6,High,1700
+QGHOZ,73,M,39.2,255,150,Smoker,Never,Frequently,Heart Disease,Widowed,32182,Rural,Cancer,Average,9358,6,6,High,1700
+QFRIM,62,F,34.3,274,140,Smoker,Never,Frequently,Heart Disease,Widowed,31911,Rural,Cancer,Average,7558,6,5,High,1300
+ATJYK,73,M,30.3,240,143,Smoker,Never,Frequently,Heart Disease,Widowed,46485,Rural,Cancer,Average,8506,6,3,High,1700
+UYYIY,64,M,30.8,269,179,Smoker,Never,Frequently,Diabetes,Widowed,42554,Rural,Cancer,Average,9563,9,3,High,1700
+TABHJ,73,F,31.7,273,173,Smoker,Never,Frequently,Heart Disease,Widowed,23247,Rural,Cancer,Average,5190,11,3,High,1700
+LJPBE,78,M,34.3,243,161,Smoker,Never,Frequently,Heart Disease,Widowed,44351,Rural,Cancer,Average,9080,6,6,High,1700
+DINZD,86,M,31.8,291,153,Smoker,Never,Frequently,Diabetes,Widowed,42232,Rural,Cancer,Average,7549,12,4,High,1700
+WPLOU,69,M,30.6,275,155,Smoker,Never,Frequently,Heart Disease,Widowed,37852,Rural,Cancer,Average,9782,8,4,High,1700
+JYZZS,74,F,32.2,298,166,Smoker,Never,Frequently,Heart Disease,Widowed,38095,Rural,Cancer,Average,7806,12,6,High,1700
+GDGZO,67,F,35.1,278,178,Smoker,Never,Frequently,Diabetes,Widowed,40554,Rural,Cancer,Average,9811,9,4,High,1700
+EZMZT,61,F,36.6,299,172,Smoker,Never,Frequently,Diabetes,Widowed,17952,Rural,Cancer,Average,9554,9,6,High,1700
+AFTRK,73,F,32.7,269,162,Smoker,Never,Frequently,Diabetes,Widowed,43964,Rural,Cancer,Average,8388,12,5,High,1700
+AFKNH,77,F,34.3,252,148,Smoker,Never,Frequently,Heart Disease,Widowed,47535,Rural,Cancer,Average,8483,6,4,High,1700
+KLNHT,80,M,37.8,297,174,Smoker,Never,Frequently,Diabetes,Widowed,24223,Rural,Cancer,Average,5403,6,5,High,1700
+IQYGF,64,F,32.5,290,161,Smoker,Never,Frequently,Diabetes,Widowed,35550,Rural,Cancer,Average,7521,10,5,High,1700
+NRPDM,87,M,37.1,285,173,Smoker,Never,Frequently,Heart Disease,Widowed,27216,Rural,Cancer,Average,9799,6,6,High,1700
+ZHSSO,62,F,38.0,287,141,Smoker,Never,Frequently,Diabetes,Widowed,39978,Rural,Cancer,Average,8256,6,5,High,1700
+CFTUN,68,M,38.9,295,158,Smoker,Never,Frequently,Heart Disease,Widowed,36801,Rural,Cancer,Average,8660,11,5,High,1700
+RXODG,79,M,33.2,247,163,Smoker,Never,Frequently,Diabetes,Widowed,32396,Rural,Cancer,Average,8671,7,3,High,1700
+IRCCD,69,M,31.4,292,165,Smoker,Never,Frequently,Diabetes,Widowed,32532,Rural,Cancer,Average,7073,12,5,High,1700
+QOQYW,78,M,30.1,240,145,Smoker,Never,Frequently,Heart Disease,Widowed,24990,Rural,Cancer,Average,5249,11,6,High,1700
+MTYYR,80,F,39.4,272,156,Smoker,Never,Frequently,Heart Disease,Widowed,44806,Rural,Cancer,Average,7857,12,6,High,1700
+OWMLE,84,M,35.7,253,140,Smoker,Never,Frequently,Heart Disease,Widowed,36993,Rural,Cancer,Average,9247,7,3,High,1300
+GLIVV,79,F,38.6,267,158,Smoker,Never,Frequently,Diabetes,Widowed,19015,Rural,Cancer,Average,7066,7,4,High,1700
+LKCGR,85,M,34.9,269,157,Smoker,Never,Frequently,Diabetes,Widowed,36063,Rural,Cancer,Average,7868,12,6,High,1700
+KREOO,86,M,36.7,273,148,Smoker,Never,Frequently,Heart Disease,Widowed,16786,Rural,Cancer,Average,8707,6,4,High,1700
+SZYAX,81,M,34.9,280,144,Smoker,Never,Frequently,Diabetes,Widowed,21194,Rural,Cancer,Average,5160,9,5,High,1700
+JMZKS,72,M,39.5,247,153,Smoker,Never,Frequently,Diabetes,Widowed,55097,Rural,Cancer,Average,8889,9,5,High,1700
+XDVEF,70,F,37.0,244,168,Smoker,Never,Frequently,Heart Disease,Widowed,35337,Rural,Cancer,Average,5378,9,4,High,1700
+ULREV,64,M,30.8,261,158,Smoker,Never,Frequently,Diabetes,Widowed,59517,Rural,Cancer,Average,6974,12,3,High,1700
+GNOEP,61,F,33.0,297,140,Smoker,Never,Frequently,Diabetes,Widowed,37958,Rural,Cancer,Average,8023,9,6,High,1300
+QIZUN,67,M,37.1,296,157,Smoker,Never,Frequently,Heart Disease,Widowed,46209,Rural,Cancer,Average,6899,8,4,High,1700
+KNGPK,65,F,37.5,254,159,Smoker,Never,Frequently,Diabetes,Widowed,35946,Rural,Cancer,Average,7977,9,4,High,1700
+ISQPS,86,M,33.4,266,177,Smoker,Never,Frequently,Diabetes,Widowed,40573,Rural,Cancer,Average,6179,9,6,High,1700
+SXEYE,67,M,34.8,244,171,Smoker,Never,Frequently,Diabetes,Widowed,59453,Rural,Cancer,Average,9736,11,3,High,1700
+ANNOW,65,M,31.2,268,153,Smoker,Never,Frequently,Heart Disease,Widowed,34170,Rural,Cancer,Average,8106,8,6,High,1700
+TZCTX,62,M,33.5,283,156,Smoker,Never,Frequently,Diabetes,Widowed,36714,Rural,Cancer,Average,7645,6,6,High,1700
+ZVWCD,85,M,30.9,299,147,Smoker,Never,Frequently,Diabetes,Widowed,27866,Rural,Cancer,Average,9551,10,5,High,1700
+BEIHE,62,M,39.6,275,147,Smoker,Never,Frequently,Diabetes,Widowed,25678,Rural,Cancer,Average,8896,7,3,High,1700
+WDZZI,61,F,30.1,247,180,Smoker,Never,Frequently,Diabetes,Widowed,15221,Rural,Cancer,Average,9116,6,3,High,1700
+OAIBO,71,M,35.8,292,164,Smoker,Never,Frequently,Heart Disease,Widowed,18649,Rural,Cancer,Average,8817,12,4,High,1700
+UZGWV,71,F,31.7,255,155,Smoker,Never,Frequently,Heart Disease,Widowed,35461,Rural,Cancer,Average,6895,10,4,High,1700
+EINOE,67,F,37.1,268,176,Smoker,Never,Frequently,Diabetes,Widowed,19760,Rural,Cancer,Average,6628,11,4,High,1700
+KIWWQ,88,F,36.7,285,161,Smoker,Never,Frequently,Diabetes,Widowed,30854,Rural,Cancer,Average,7997,11,6,High,1700
+SXJRK,77,M,34.5,298,147,Smoker,Never,Frequently,Heart Disease,Widowed,33565,Rural,Cancer,Average,6545,9,6,High,1700
+IQFRY,65,F,31.1,274,160,Smoker,Never,Frequently,Heart Disease,Widowed,41891,Rural,Cancer,Average,8529,10,6,High,1700
+EJIXY,63,M,34.9,265,165,Smoker,Never,Frequently,Heart Disease,Widowed,23596,Rural,Cancer,Average,5967,8,4,High,1700
+HPNZY,73,M,38.8,247,166,Smoker,Never,Frequently,Heart Disease,Widowed,35104,Rural,Cancer,Average,6956,12,5,High,1700
+JHNPU,68,M,36.3,290,165,Smoker,Never,Frequently,Diabetes,Widowed,30140,Rural,Cancer,Average,8284,6,4,High,1700
+ZJICS,82,M,35.3,268,160,Smoker,Never,Frequently,Heart Disease,Widowed,19416,Rural,Cancer,Average,8266,6,6,High,1700
+VYCQA,89,F,37.1,283,161,Smoker,Never,Frequently,Heart Disease,Widowed,19407,Rural,Cancer,Average,9059,7,4,High,1700
+NJJAQ,83,F,30.6,275,163,Smoker,Never,Frequently,Diabetes,Widowed,42084,Rural,Cancer,Average,8134,9,3,High,1700
+DWDZJ,65,M,33.8,276,177,Smoker,Never,Frequently,Heart Disease,Widowed,40241,Rural,Cancer,Average,6439,11,6,High,1700
+EBIHL,66,F,30.9,296,178,Smoker,Never,Frequently,Heart Disease,Widowed,31908,Rural,Cancer,Average,6854,6,4,High,1700
+HGVPC,68,F,35.6,293,178,Smoker,Never,Frequently,Diabetes,Widowed,30865,Rural,Cancer,Average,8316,11,5,High,1700
+NRTUD,75,M,38.2,240,176,Smoker,Never,Frequently,Heart Disease,Widowed,25733,Rural,Cancer,Average,7092,9,3,High,1700
+IJIMH,83,M,36.1,283,170,Smoker,Never,Frequently,Heart Disease,Widowed,31774,Rural,Cancer,Average,8081,11,4,High,1700
+AKJRO,73,F,35.7,247,168,Smoker,Never,Frequently,Diabetes,Widowed,37430,Rural,Cancer,Average,5055,7,3,High,1700
+MAWPV,73,M,32.6,294,173,Smoker,Never,Frequently,Heart Disease,Widowed,21079,Rural,Cancer,Average,7836,6,3,High,1700
+YZSHM,62,M,36.9,254,143,Smoker,Never,Frequently,Heart Disease,Widowed,48199,Rural,Cancer,Average,7182,9,5,High,1700
+NGAAD,76,M,32.1,262,173,Smoker,Never,Frequently,Heart Disease,Widowed,57497,Rural,Cancer,Average,5638,6,4,High,1700
+EFOND,67,F,30.0,282,166,Smoker,Never,Frequently,Diabetes,Widowed,39883,Rural,Cancer,Average,7808,11,4,High,1500
+HIIOK,67,F,34.1,288,180,Smoker,Never,Frequently,Heart Disease,Widowed,44032,Rural,Cancer,Average,8972,10,5,High,1700
+ZVFXF,79,M,32.4,283,143,Smoker,Never,Frequently,Heart Disease,Widowed,16410,Rural,Cancer,Average,6902,9,6,High,1700
+JMIFB,82,M,34.4,281,142,Smoker,Never,Frequently,Diabetes,Widowed,43768,Rural,Cancer,Average,6963,9,6,High,1700
+BSLUL,82,F,33.0,285,146,Smoker,Never,Frequently,Heart Disease,Widowed,36243,Rural,Cancer,Average,5048,8,4,High,1700
+VOOCO,71,M,35.4,248,157,Smoker,Never,Frequently,Diabetes,Widowed,44629,Rural,Cancer,Average,9990,9,3,High,1700
+DWXMA,61,M,36.3,263,173,Smoker,Never,Frequently,Heart Disease,Widowed,31708,Rural,Cancer,Average,9191,10,3,High,1700
+RMIHN,63,F,37.3,277,150,Smoker,Never,Frequently,Heart Disease,Widowed,54415,Rural,Cancer,Average,6303,9,4,High,1700
+KYQVK,70,F,34.9,289,157,Smoker,Never,Frequently,Heart Disease,Widowed,26429,Rural,Cancer,Average,5575,12,3,High,1700
+TBAGE,64,F,32.0,257,156,Smoker,Never,Frequently,Heart Disease,Widowed,45070,Rural,Cancer,Average,8359,11,6,High,1700
+RIKTT,66,M,30.6,265,142,Smoker,Never,Frequently,Diabetes,Widowed,30319,Rural,Cancer,Average,8712,12,6,High,1700
+BEAGF,72,F,30.0,300,143,Smoker,Never,Frequently,Diabetes,Widowed,44407,Rural,Cancer,Average,7997,9,3,High,1500
+OLLHX,67,M,35.3,243,156,Smoker,Never,Frequently,Heart Disease,Widowed,23703,Rural,Cancer,Average,7623,11,6,High,1700
+RPVUO,88,M,34.4,292,154,Smoker,Never,Frequently,Heart Disease,Widowed,25157,Rural,Cancer,Average,9320,7,5,High,1700
+KBPIB,81,M,37.1,270,148,Smoker,Never,Frequently,Heart Disease,Widowed,41494,Rural,Cancer,Average,8586,10,4,High,1700
+ALFXY,81,F,36.2,288,153,Smoker,Never,Frequently,Heart Disease,Widowed,24994,Rural,Cancer,Average,5634,11,4,High,1700

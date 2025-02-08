@@ -1,0 +1,7 @@
+name,age,gender,occupation,marital_status,education_level,annual_income,residential_location,vehicle_make,vehicle_age,engine_size,mileage_driven_annually,accident_history,traffic_violations,claims_history,license_duration,risk_level,insurance_amount
+EYMEW,31,M,Student,Married,Master,20000,Rural,Nissan,5,3.5,17000,2,1,3,19,Medium,900
+EYMEW,31,M,Student,Married,Master,20000,Rural,Nissan,5,3.5,17000,2,1,3,19,Medium,900
+OLPFM,24,F,Retired,Widowed,Master,90000,Suburban,BMW,7,2.0,11000,0,0,0,17,Low,950
+OLPFM,24,F,Retired,Widowed,Master,90000,Suburban,BMW,7,2.0,11000,0,0,0,17,Low,950
+BXGCC,58,M,Manager,Divorced,,30000,Rural,Nissan,12,3.5,19000,2,3,3,5,High,1150
+BXGCC,58,M,Manager,Divorced,,30000,Rural,Nissan,12,3.5,19000,2,3,3,5,High,1150

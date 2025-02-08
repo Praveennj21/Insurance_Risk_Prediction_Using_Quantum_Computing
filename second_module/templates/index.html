@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Company</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: #2c3e50;
+            color: white;
+            position: relative;
+        }
+
+        h1 {
+            flex-grow: 1;
+            text-align: center;
+            font-size: 48px;
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .institute {
+            color: #ffffff;
+        }
+
+        .logo {
+            width: 90px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+            margin-left: 10px;
+            border: 3px solid #ffffff;
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .bigpic {
+            position: relative;
+            width: 100%;
+            height: 350px;
+            background: url('static/ind.png') no-repeat center center;
+            background-size: cover;
+            display: block;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+            overflow: hidden;
+        }
+
+        .bigpic::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+            opacity: 0.8;
+            z-index: 1;
+            transition: opacity 0.4s ease;
+        }
+
+        .bigletters {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+            font-weight: bold;
+            text-align: center;
+            max-width: 90%;
+            z-index: 2;
+            transition: transform 0.4s ease, opacity 0.4s ease;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            .bigletters {
+                font-size: 2em;
+            }
+        }
+
+        .icons {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 50px;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            margin: 30px auto;
+            max-width: 1300px;
+        }
+
+        .icon-item {
+            text-align: center;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            width: 220px;
+        }
+
+        .icon-item:hover {
+            transform: translateY(-15px) scale(1.1);
+            box-shadow: 0 15px 35px rgba(0, 123, 255, 0.4);
+        }
+
+        .icon-image {
+            width: 220px;
+            height: 220px;
+            border-radius: 20px;
+            border: 4px solid transparent;
+            padding: 15px;
+            background-color: #ffffff;
+            transition: border-color 0.4s ease, transform 0.4s ease;
+            cursor: pointer;
+        }
+
+        .icon-image:hover {
+            border-color: #ff5722;
+            transform: scale(1.1);
+        }
+
+        .icon-description {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), 4px 4px 10px rgba(0, 0, 0, 0.15);
+            background: linear-gradient(135deg, #ff6f61, #d6336c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        section {
+            padding: 20px;
+            margin: 30px auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            max-width: 1200px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .team {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .team-member {
+            text-align: center;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+
+        .team-member-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        blockquote {
+            font-style: italic;
+            margin: 10px 0;
+            background: #e9f7ef;
+            padding: 15px;
+            border-left: 5px solid #2ecc71;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 40px;
+        }
+
+        .social-media {
+            margin: 10px 0;
+        }
+
+        .social-media img {
+            width: 30px; /* Adjust icon size */
+            height: 30px; /* Adjust icon size */
+            margin: 0 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-media img:hover {
+            transform: scale(1.2); /* Hover effect for icons */
+        }
+
+        .faq {
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        details {
+            background: #ffffff;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            transition: background 0.3s;
+        }
+
+        details:hover {
+            background: #f2f2f2;
+        }
+
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       
+        /* Header styling */
+        header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: #2c3e50;
+            color: white;
+            position: relative;
+        }
+
+        h1 {
+            flex-grow: 1;
+            text-align: center;
+            font-size: 48px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .logo {
+            width: 90px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+            background-color: #f0f0f0;
+            overflow: hidden;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-about,
+        .footer-contact,
+        .social-icons {
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+
+        .footer-about {
+            width: 40%;
+        }
+
+        .footer-contact {
+            width: 30%;
+        }
+
+        .social-icons a {
+            margin: 0 5px;
+            display: inline-block;
+        }
+
+        .social-icons img {
+            width: 25px;
+            height: 25px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-icons img:hover {
+            transform: scale(1.1);
+        }
+
+        .footer-bottom {
+            padding-top: 10px;
+            border-top: 1px solid #444;
+            margin-top: 15px;
+        }
+
+        .contact-link {
+            color: #00BCD4;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-link:hover {
+            color: #ff5722;
+        }
+
+        @media (max-width: 768px) {
+            .footer-about, .footer-contact, .social-icons {
+                width: 100%;
+                text-align: center;
+            }
+        }
+   
+
+   .logout-btn {
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    color: #000000;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.4s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logout-btn:hover {
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+/* Enhanced Styling for h1 Heading */
+.services-heading {
+    font-size: 3rem;               /* Larger font size for emphasis */
+    font-weight: 800;              /* Bold weight */
+    text-align: center;            /* Center the heading */
+    margin-bottom: 30px;           /* Space below the heading */
+    color: #333;                   /* Darker text color for contrast */
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #007bff, #ff6b6b); /* Gradient text */
+    -webkit-background-clip: text; /* Clip the background to text */
+    -webkit-text-fill-color: transparent; /* Make text transparent */
+    position: relative;            /* Position for underline animation */
+    text-transform: uppercase;      /* Uppercase text for impact */
+    letter-spacing: 2px;           /* Increase letter spacing */
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+/* Hover effect for a slight scaling animation */
+.services-heading:hover {
+    transform: scale(1.05);        /* Slight zoom on hover */
+}
+
+/* Animated Underline */
+.services-heading::after {
+    content: "";
+    display: block;
+    width: 100px;                 /* Width of the underline */
+    height: 4px;                  /* Height of the underline */
+    background: linear-gradient(90deg, #007bff, #ff6b6b); /* Gradient color */
+    margin: 12px auto 0;          /* Centered and spaced below the heading */
+    border-radius: 4px;           /* Rounded corners */
+    transition: width 0.4s ease;  /* Smooth width animation */
+}
+
+/* Hover effect for underline */
+.services-heading:hover::after {
+    width: 140px;                 /* Expand underline on hover */
+}
+
+
+
+
+
+
+
+/* Main Section Styling */
+.why-us {
+    padding: 80px 0; /* Increased padding for more breathing space */
+    background-color: #f9f9f9; /* Slightly lighter background for better contrast */
+    font-family: 'Arial', sans-serif;
+}
+
+.why-us .container {
+    max-width: 1100px; /* Max width for larger screens */
+    margin: 0 auto;
+    padding: 0 15px; /* Keep container padding */
+}
+
+/* Heading Styling */
+.why-us .why-us-content .sub-heading {
+    color: #FF5722; /* Vibrant orange color for attention */
+    font-size: 1.5rem; /* Increase font size for better visibility */
+    font-weight: 700; /* Make the font bolder for emphasis */
+    text-transform: uppercase; /* Maintain uppercase for impact */
+    letter-spacing: 2px; /* Increase letter spacing for better readability */
+    margin-bottom: 20px; /* Increased margin for more space below */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition effects */
+}
+
+
+.why-us .why-us-content .heading {
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 25px; /* Increased margin */
+    line-height: 1.3;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.why-us .why-us-content .para-line {
+    color: #666;
+    font-size: 1.1rem; /* Slightly larger font for better readability */
+    line-height: 1.8;
+    margin-bottom: 40px; /* Increased margin for separation */
+}
+
+/* Inner Content Boxes */
+.why-us .inner-row {
+    display: flex;
+    gap: 20px; /* Increased gap between boxes */
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items */
+}
+
+.why-us .why-us-col {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex: 1;
+    min-width: 280px;
+    max-width: 300px; /* Limit width for smaller devices */
+}
+
+.why-us .why-us-col:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.why-us .why-us-col ion-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+}
+
+.why-us .why-us-col:hover ion-icon {
+    color: #ff4a4a; /* Change icon color on hover */
+}
+
+.why-us .why-us-highlight-heading {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.why-us .why-us-col .para-line {
+    color: #777;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Lead Form Styling */
+.why-us .why-us-lead-form {
+    background-color: #007bff;
+    padding: 40px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    margin-top: 40px;
+}
+
+.why-us .lead-form .input-field {
+    margin-bottom: 20px;
+}
+
+.why-us .lead-form label {
+    font-size: 0.95rem;
+    color: #ddd;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.why-us .lead-form input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #333;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Submit Button */
+.why-us .btn-blue {
+    display: inline-block;
+    background-color: #ff4a4a;
+    padding: 12px 20px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.why-us .btn-blue:hover {
+    background-color: #e63939;
+    transform: scale(1.05);
+}
+
+.why-us .btn-blue a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .why-us {
+        padding: 50px 0;
+    }
+
+    .why-us .inner-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .why-us .why-us-col {
+        max-width: 100%; /* Full width on smaller screens */
+    }
+}
+.why-us-image {
+    width: 80px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 15px; /* Increase spacing between image and text */
+    display: block; /* Ensures the image is treated as a block element */
+    margin-left: auto; /* Center image horizontally */
+    margin-right: auto; /* Center image horizontally */
+    border-radius: 50%; /* Make images circular (optional) */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for effects */
+}
+
+/* Add hover effect */
+.why-us-image:hover {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+}
+.why-us-content {
+    text-align: center; /* Center-aligns all text within this container */
+}
+
+.sub-heading {
+    margin-bottom: 12px; /* Adjust margin as needed */
+    color: #007bff; /* Keep existing color styling */
+    font-size: 1.2rem; /* Existing font size */
+    font-weight: 600; /* Existing font weight */
+    text-transform: uppercase; /* Existing text transformation */
+    letter-spacing: 1.5px; /* Existing letter spacing */
+}
+
+
+
+
+.about {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.about:hover {
+    transform: translateY(-5px);
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.sub-heading {
+    color: #FF5722;
+    font-size: 1.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease, transform 0.3s ease;
+    position: relative;
+}
+
+.sub-heading::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    height: 2px;
+    background-color: #FF5722;
+    transition: width 0.3s ease;
+}
+
+.sub-heading:hover {
+    color: #E64A19;
+    transform: translateY(-3px);
+}
+
+.sub-heading:hover::after {
+    width: 60%;
+}
+
+.para-line {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.about-highlights {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-highlight-line {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    width: 80%;
+}
+
+.about-highlight-line:hover {
+    transform: translateX(5px);
+}
+
+.about-highlight-line h5 {
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color: #34495e;
+}
+
+ion-icon {
+    color: #2980b9;
+    font-size: 24px;
+}
+
+/* Right-side image styling */
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Head of the Department Section Styles */
+.hod-section {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.hod-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between the two columns */
+}
+
+.hod-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%; /* Adjust as needed */
+}
+
+.hod-photo {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin:10px;
+    padding:10px;
+    box-shadow:6px -7px 20px 20px rgb(78 80 113 / 46%); 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hod-details {
+    max-width: 100%;
+}
+
+.hod-details h2 {
+    margin-bottom: 15px;
+    font-size: 28px;
+    color: #333;
+}
+
+.hod-details p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.hod-details a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.hod-details a:hover {
+    text-decoration: underline;
+}
+
+/* Additional Department Image Styles */
+.department-image {
+    max-width: 50%; /* Adjust as needed */
+    text-align: center; /* Center align the image */
+}
+
+.department-image img {
+    width: 100%;
+    max-width: 500px; /* Adjust the max width of the image */
+    height: auto;
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for better visibility */
+}
+
+
+
+
+
+
+
+/* Header Styling */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo Styling */
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+/* Header Right Section */
+.header-right {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Hamburger Menu Styling */
+.hamburger-menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hamburger-menu img {
+    width: 50px;
+    height: 50px;
+}
+
+.hamburger-menu:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+}
+
+/* Menu Buttons Styling */
+.header-buttons {
+    display: none; /* Initially hidden */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 999;
+}
+
+.header-buttons button {
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.header-buttons button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #56ccf2, #2f80ed);
+}
+
+/* JavaScript-controlled active state for the menu */
+.header-buttons.active {
+    display: flex;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .header-buttons {
+        width: 200px;
+        right: 10px;
+    }
+
+    .header-buttons button {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+
+
+<script>
+    // Function to toggle menu visibility
+    function toggleMenu() {
+    const menu = document.getElementById('menu');
+    menu.classList.toggle('active');
+}
+
+</script>
+
+
+
+
+
+</head>
+
+<body>
+<header class="header">
+    <img src="static/logo.png" alt="XYZ Insurance Logo" class="logo">
+    <h1><span class="institute">Insurance Company</span></h1>
+
+    <div class="header-right">
+        <!-- Hamburger Menu -->
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <img src="static/menu.png" alt="Menu"> <!-- Replace with your uploaded image path -->
+        </div>
+
+        <!-- Buttons to toggle -->
+        <div class="header-buttons" id="menu">
+            <button class="logout-btn" onclick="location.href='{{ url_for('change_account') }}'">Change Password</button>
+            <button class="logout-btn" onclick="location.href='{{ url_for('register') }}'">Register</button>
+            <button class="logout-btn" onclick="location.href='{{ url_for('logout') }}'">Logout</button>
+        </div>
+    </div>
+</header>
+
+    <div class="bigpic">
+    
+    </div>
+
+
+<br>
+<h1 class="services-heading">Services We Provide</h1>
+
+    <div class="icons">
+   
+        <div class="icon-item">
+           <a href="{{ url_for('vehicle_dashboard') }}" class="btn btn-primary">
+
+                <img src="static/vechile.png" alt="Vehicle Insurance" class="icon-image" />
+                <p class="icon-description">Vehicle Insurance</p>
+            </a>
+        </div>
+
+        <div class="icon-item">
+            <a href="{{ url_for('health_dashboard') }}" class="btn btn-primary">
+ 
+                 <img src="static/health.jpg" alt="Vehicle Insurance" class="icon-image" />
+                 <p class="icon-description">Helath Insurance</p>
+             </a>
+         </div>
+      
+    </div>
+
+    
+<section class="why-us">
+    <div class="container">
+        <div class="row">
+            <div class="col why-us-content">
+                <h4 class="sub-heading">Why Choose Us</h4>
+                <h2 class="heading">Winner of the Global Insurance Award 2022</h2>
+                <p class="para-line">
+                    Coloring book with a pug enamel pin represents the playful spirit of our insurance services. Our eco-friendly copper mugs embody our commitment to sustainability and community values, while the design highlights the importance of understanding policy details, all presented in a vibrant, artistic style.
+                </p>
+                <div class="inner-row why-us-row">
+                    <div class="inner-col why-us-col">
+                       <img src="static/24.png" alt="Support" class="why-us-image">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <h3 class="why-us-highlight-heading">24/7 Support</h3>
+                        <p class="para-line">Always here for you, anytime, any day – 24/7 support at your service.</p>
+                    </div>
+                    <div class="inner-col why-us-col">
+                        <img src="static/premium.png" alt="Premium Services" class="why-us-image">
+                        <ion-icon name="flame-outline"></ion-icon>
+                        <h3 class="why-us-highlight-heading">Premium Services</h3>
+                        <p class="para-line">Experience exceptional care and exclusive benefits with our Premium Services.</p>
+                    </div>
+                    <div class="inner-col why-us-col">
+                        <img src="static/protection.jpg" alt="Trusted Protection" class="why-us-image">
+                        <ion-icon name="shield-checkmark-outline"></ion-icon>
+                        <h3 class="why-us-highlight-heading">Trusted Protection</h3>
+                        <p class="para-line">Reliable coverage you can count on – that's our Trusted Protection.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    
+
+
+
+
+
+<!-- Head of the Department Section -->
+<section class="hod-section">
+    <div class="container">
+        <div class="hod-profile">
+            <div class="hod-info">
+            <div class="about-highlights">
+              <h4 class="sub-heading">About the Company</h4>
+                <h2 class="heading">Our Story</h2>
+                <p class="para-line">
+                   An illustrated coloring book with a pug enamel pin captures our quirky insurance philosophy. Our sustainable copper mugs embody our dedication to eco-consciousness, showcasing that we care about protecting both our clients and the planet.
+                </p>
+                    <div class="about-highlight-line">
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                        <h5 class="highlight-line-heading">Experienced Team</h5>
+                    </div>
+                    <div class="about-highlight-line">
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                        <h5 class="highlight-line-heading">Online Insurance Assistant</h5>
+                    </div>
+                    <div class="about-highlight-line">
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                        <h5 class="highlight-line-heading">Insurance Coverage</h5>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="department-image">
+               <img src="static/company.png" alt="Department Image">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-about width-40">
+                <h3>About Us</h3>
+                <p>XYZ Insurance Company has been serving the community with top-notch insurance solutions for over a decade. Our mission is to provide peace of mind through comprehensive coverage.gds</p>
+            </div>
+            <div class="footer-contact width-30">
+                <h3>Contact Us</h3>
+                <p><i class="fa fa-map-marker"></i> <a href="https://www.google.com/maps/place/P.E.S.+Institute+of+Technology+and+Management/@13.9631694,75.5071402,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbba5eb38753875:0x239d4f69a53edc48!8m2!3d13.9631694!4d75.5097151!16s%2Fm%2F0gx_4zn?entry=ttu&g_ep=EgoyMDI0MDgyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="contact-link">Insurancy Company</a></p>
+                <p><i class="fa fa-phone"></i> +123 456 7890</p>
+                <p><i class="fa fa-envelope"></i> <a href="mailto:insurancepolicy@gmail.com" class="contact-link">insurancepolicy@gmail.com</a></p>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/pesitm.cse/" target="_blank">
+                    <img src="static/instagram.png " alt="Instagram" />
+                </a>
+                <a href="https://www.linkedin.com/groups/12725155/" target="_blank">
+                    <img src="static/linkedin.png " alt="LinkedIn" />
+                </a>
+                <a href="https://web.whatsapp.com/" target="_blank">
+                
+                    <img src="static/whatsapp.png " alt="WhatsApp" />
+                </a>
+                <a href="mailto:insurancepolicy@gmail.com" target="_blank">
+                    <img src="static/gmail.png " alt="Email" />
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright 2024 © INSURANCE COMPANY</p>
+        </div>
+    </footer>
+</body>
+
+</html> 

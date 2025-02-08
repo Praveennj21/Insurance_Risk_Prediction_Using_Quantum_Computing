@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload CSV for Vehicle Risk Prediction</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #565e5d, #ACB6E5);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            padding: 50px;
+            background: rgba(255, 255, 255, 0.9);
+            margin: 50px auto;
+            border-radius: 20px;
+            max-width: 800px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+            transition: box-shadow 0.3s, transform 0.3s;
+            text-align: center;
+        }
+        .container:hover {
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+            transform: translateY(-10px);
+        }
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #333;
+            text-shadow: 3px 3px 0px #ACB6E5, 9px 9px 0px rgba(0, 0, 0, 0.2);
+            margin-bottom: 40px;
+        }
+        .form-group {
+            margin: 20px 0;
+            text-align: center;
+        }
+        label {
+            font-weight: 600;
+            color: #333;
+            font-size: 1.1rem;
+        }
+        input[type="file"] {
+            display: block;
+            margin: 20px auto;
+            padding: 10px;
+            border: 2px solid #74ebd5;
+            border-radius: 5px;
+            background: #fff;
+            cursor: pointer;
+        }
+        .btn-primary {
+            background: linear-gradient(to right, #74ebd5, #ACB6E5);
+            border: none;
+            font-weight: 700;
+            color: #333;
+            padding: 15px 30px;
+            border-radius: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s, transform 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .btn-primary:hover {
+            background: linear-gradient(to right, #ACB6E5, #74ebd5);
+            color: #fff;
+            transform: translateY(-2px);
+        }
+        #downloadSection {
+            text-align: center;
+            margin-top: 20px;
+        }
+        a.back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #333;
+            font-weight: 700;
+            text-decoration: none;
+            padding: 10px 20px;
+            background: #f0f0f0;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        a.back-link:hover {
+            background: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Upload CSV File for Health Insurance Prediction</h2>
+        
+        <form id="uploadForm" enctype="multipart/form-data" method="post" action="/health_upload">
+            <div class="form-group">
+                <label for="file">Select CSV file:</label>
+                <input type="file" id="file" name="file" accept=".csv" required aria-label="Select CSV file to upload">
+            </div>
+            <button type="submit" class="btn-primary" aria-label="Upload and process file">Upload and Process</button>
+        </form>
+        
+        <a href="{{ url_for('index') }}" class="back-link" aria-label="Go back to the index page">Go Back</a>
+
+        {% if error_message %}
+        <p class="error-message">{{ error_message }}</p>
+        {% endif %}
+        
+        {% if download_link %}
+        <div id="downloadSection">
+            <h4>File processed successfully!</h4>
+           <a href="{{ url_for('download_health_file', filename=filename) }}">Download the result</a>.</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

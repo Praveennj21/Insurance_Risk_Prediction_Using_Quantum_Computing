@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Result</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #565e5d, #ACB6E5);
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            padding: 50px;
+            background: rgba(255, 255, 255, 0.9);
+            margin: 50px auto;
+            border-radius: 20px;
+            max-width: 800px;
+            text-align: center;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+            transition: box-shadow 0.3s, transform 0.3s;
+        }
+
+        .container:hover {
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+            transform: translateY(-10px);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+            text-shadow: 3px 3px 0px #ACB6E5, 9px 9px 0px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+
+        a {
+            display: inline-block;
+            padding: 15px 20px;
+            background: linear-gradient(to right, #74ebd5, #ACB6E5);
+            color: #333;
+            border-radius: 25px;
+            font-weight: 700;
+            text-decoration: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        a:hover {
+            background: linear-gradient(to right, #ACB6E5, #74ebd5);
+            color: #fff;
+            transform: translateY(-2px);
+        }
+
+        #chart_div {
+            width: 100%; /* Change this to desired width */
+            height: 400px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Insurance Prediction Result</h1>
+        <p>Risk Level: <strong>{{ risk_level }}</strong></p>
+        <p>Insurance Amount: <strong>${{ insurance_amount }}</strong></p>
+        <div id="chart_div"></div>
+        <a href="{{ url_for('index') }}">Go Back</a>
+    </div>
+
+    <script type="text/javascript">
+        // Load the Google Charts library
+        google.charts.load('current', { packages: ['corechart'] });
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            // Get the risk level and insurance amount
+            var riskLevel = '{{ risk_level }}';  // Example: "High Risk"
+            var amount = parseFloat({{ insurance_amount }}); // Ensure this is a valid number
+
+            // Define colors for different risk levels
+            var colorMap = {
+              '{{ risk_level }}': '#74ebd5',       // Light blue
+                '{{ risk_level }}': '#ffcc00',  // Yellow
+                '{{ risk_level }}': '#ff4d4d'       // Red
+            };
+
+            // Prepare chart data for the current risk level
+            var data = google.visualization.arrayToDataTable([
+                ['Risk Level', 'Amount', { role: 'style' }],
+                [riskLevel, amount, colorMap[riskLevel] || '#000']  // Fallback to black if undefined
+            ]);
+
+            // Chart options with enhanced styling
+            var options = {
+                title: 'Insurance Amount for ' + riskLevel,
+                titleTextStyle: {
+                    fontSize: 24,
+                    bold: true,
+                    color: '#333',
+                    italic: false,
+                },
+                hAxis: {
+                    title: 'Risk Level',
+                    textStyle: {
+                        fontSize: 14,
+                        color: '#555'
+                    },
+                    gridlines: { count: 0 }
+                },
+                vAxis: { 
+                    title: 'Amount ($)', 
+                    minValue: 0, 
+                    format: 'currency',
+                    textStyle: {
+                        fontSize: 14,
+                        color: '#555'
+                    },
+                    gridlines: {
+                        color: '#e0e0e0',
+                        count: 5
+                    }
+                },
+                legend: { position: 'none' },
+                bar: { groupWidth: '70%' },
+                backgroundColor: { fill: '#f9f9f9' },
+                chartArea: { width: '80%', height: '70%' },
+                animation: {
+                    startup: true,
+                    duration: 500,
+                    easing: 'out',
+                },
+                tooltip: {
+                    isHtml: true,
+                    trigger: 'selection',
+                },
+            };
+
+            // Render the chart as a ColumnChart
+            var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+        }
+    </script>
+</body>
+</html>
